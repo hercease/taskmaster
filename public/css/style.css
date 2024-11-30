@@ -1,0 +1,137 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    text-align: center; /* Center-align content inside */
+    padding: 1rem; /* Add padding for smaller screens */
+    box-sizing: border-box;
+  }
+  
+  /* Form container */
+  .form-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px; /* Limit the container width */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center inputs horizontally */
+  }
+  
+  /* Heading */
+  .form-container h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  /* Form inputs */
+  #registerForm input {
+    width: 100%; /* Full width of the container */
+    max-width: 350px; /* Limit width for larger screens */
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+    text-align: left; /* Keep input text aligned to the left */
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  /* Input hover and focus styles */
+  #registerForm input:focus {
+    border-color: #2575fc;
+  }
+  
+  /* Button */
+  #registerForm button {
+    width: 100%; /* Full width of the container */
+    max-width: 350px; /* Limit width for larger screens */
+    padding: 0.8rem;
+    background: #2575fc;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+  }
+  
+  #registerForm button:hover {
+    background: #6a11cb;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 1.5rem; /* Reduce padding on smaller screens */
+    }
+  
+    #registerForm input,
+    #registerForm button {
+      max-width: 100%; /* Allow inputs to scale fully on small screens */
+    }
+  }
+  
+   /* Form inputs */
+   #loginForm input {
+    width: 100%; /* Full width of the container */
+    max-width: 350px; /* Limit width for larger screens */
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+    text-align: left; /* Keep input text aligned to the left */
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  /* Input hover and focus styles */
+  #loginForm input:focus {
+    border-color: #2575fc;
+  }
+  
+  /* Button */
+  #loginForm button {
+    width: 100%; /* Full width of the container */
+    max-width: 350px; /* Limit width for larger screens */
+    padding: 0.8rem;
+    background: #2575fc;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+  }
+  
+  #loginForm button:hover {
+    background: #6a11cb;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 1.5rem; /* Reduce padding on smaller screens */
+    }
+  
+    #loginForm input,
+    #loginForm button {
+      max-width: 100%; /* Allow inputs to scale fully on small screens */
+    }
+  }
