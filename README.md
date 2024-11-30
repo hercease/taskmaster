@@ -1,2 +1,2 @@
 # taskmaster
-A todo system where you can setup your tasks for the day and year 
+A todo system where you can setup your tasks for your day to day activities
