@@ -15,33 +15,46 @@ body {
   }
   
   .dashboard-header {
-    background-color: #fff;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
   }
   
   .dashboard-header h1 {
-    margin-bottom: 15px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
   }
-  
   
   .search-logout {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    gap: 10px;
   }
   
   .search-logout input {
     flex: 1;
+    max-width: 300px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    max-width: 400px;
   }
   
+  .search-logout a {
+    color: white;
+    background-color: #007bff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .search-logout a:hover {
+    background-color: #0056b3;
+  }
   
   #searchTask {
     flex: 1;
@@ -60,7 +73,6 @@ body {
   #logoutLink:hover {
     text-decoration: underline;
   }
-  
   
   .task-list {
     display: flex;
@@ -363,26 +375,22 @@ label {
 .filters input,
 .filters button {
   padding: 10px;
-  font-size: 14px;
+  margin: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-size: 14px;
   flex: 1;
-}
-
-.filters select {
-  min-width: 130px;
+  max-width: 150px;
 }
 
 .filters button {
-  background-color: #007bff;
+  background-color: #28a745;
   color: white;
-  border: none;
   cursor: pointer;
-  flex: none;
 }
 
 .filters button:hover {
-  background-color: #0056b3;
+  background-color: #218838;
 }
 
 /* Responsive filters */
